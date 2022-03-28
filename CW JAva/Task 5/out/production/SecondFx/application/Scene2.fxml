@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene2Controller">
+    <children>
+        <Label fx:id="nameLabel" layoutX="229.0" layoutY="52.0" prefHeight="30.0" prefWidth="166.0" />
+      <Label fx:id="nameLabel1" layoutX="229.0" layoutY="104.0" prefHeight="30.0" prefWidth="166.0" />
+      <Label fx:id="nameLabel2" layoutX="229.0" layoutY="150.0" prefHeight="30.0" prefWidth="166.0" />
+      <Label fx:id="nameLabel3" layoutX="229.0" layoutY="199.0" prefHeight="30.0" prefWidth="166.0" />
+      <Label fx:id="nameLabel4" layoutX="229.0" layoutY="246.0" prefHeight="30.0" prefWidth="166.0" />
+      <Label layoutX="146.0" layoutY="59.0" text="FirstName:" />
+      <Label layoutX="146.0" layoutY="111.0" text="Surname:" />
+      <Label layoutX="146.0" layoutY="157.0" text="Age:" />
+      <Label layoutX="146.0" layoutY="206.0" text="City:" />
+      <Label layoutX="134.0" layoutY="253.0" text="NIC/Passport:" />
+      <Label layoutX="144.0" layoutY="292.0" prefHeight="18.0" prefWidth="50.0" text="Vaccine:" />
+      <Label fx:id="nameLabel5" layoutX="229.0" layoutY="286.0" prefHeight="30.0" prefWidth="166.0" />
+      <Label layoutX="130.0" layoutY="12.0" prefHeight="30.0" prefWidth="232.0" text="Covid 19 Vaccination Center Recipt" />
+      <Label layoutX="144.0" layoutY="335.0" prefHeight="18.0" prefWidth="50.0" text="Booth" />
+      <Label fx:id="nameLabel6" layoutX="196.0" layoutY="329.0" prefHeight="30.0" prefWidth="40.0" />
+      <Label fx:id="nameLabel7" layoutX="403.0" layoutY="344.0" prefHeight="18.0" prefWidth="96.0" text="Date/Time" />
+      <Label fx:id="nameLabel6" layoutX="203.0" layoutY="336.0" />
+    </children>
+</AnchorPane>

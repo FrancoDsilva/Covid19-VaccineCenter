@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene2Controller">
+    <children>
+        <Label fx:id="nameLabel" layoutX="229.0" layoutY="52.0" prefHeight="30.0" prefWidth="166.0" textFill="#a49b9b" />
+      <Label fx:id="nameLabel1" layoutX="229.0" layoutY="104.0" prefHeight="30.0" prefWidth="166.0" textFill="#a49b9b" />
+      <Label fx:id="nameLabel2" layoutX="229.0" layoutY="150.0" prefHeight="30.0" prefWidth="166.0" textFill="#a49b9b" />
+      <Label fx:id="nameLabel3" layoutX="229.0" layoutY="199.0" prefHeight="30.0" prefWidth="166.0" textFill="#a49b9b" />
+      <Label fx:id="nameLabel4" layoutX="229.0" layoutY="246.0" prefHeight="30.0" prefWidth="166.0" textFill="#a49b9b" />
+      <Label layoutX="127.0" layoutY="57.0" text="FirstName:">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font></Label>
+      <Label layoutX="131.0" layoutY="109.0" text="Surname:">
+          <font>
+              <Font name="System Bold" size="13.0" />
+          </font></Label>
+      <Label layoutX="132.0" layoutY="155.0" text="Age:">
+          <font>
+              <Font name="System Bold" size="13.0" />
+          </font></Label>
+      <Label layoutX="132.0" layoutY="204.0" text="City:">
+          <font>
+              <Font name="System Bold" size="13.0" />
+          </font></Label>
+      <Label layoutX="134.0" layoutY="253.0" text="NIC/Passport:">
+          <font>
+              <Font name="System Bold" size="13.0" />
+          </font></Label>
+      <Label layoutX="135.0" layoutY="291.0" prefHeight="18.0" prefWidth="50.0" text="Vaccine:">
+          <font>
+              <Font name="System Bold" size="13.0" />
+          </font></Label>
+      <Label fx:id="nameLabel5" layoutX="229.0" layoutY="286.0" prefHeight="30.0" prefWidth="166.0" textFill="#a49b9b" />
+      <Label layoutX="130.0" layoutY="12.0" prefHeight="30.0" prefWidth="292.0" text="Covid 19 Vaccination Center Recipt">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label layoutX="135.0" layoutY="335.0" prefHeight="18.0" prefWidth="50.0" text="Booth">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="nameLabel6" layoutX="243.0" layoutY="329.0" prefHeight="30.0" prefWidth="40.0" textFill="#b5acac" />
+      <Label fx:id="nameLabel7" layoutX="403.0" layoutY="344.0" prefHeight="18.0" prefWidth="96.0" text="Date/Time" textFill="#a49b9b" />
+      <Label fx:id="nameLabel6" layoutX="203.0" layoutY="336.0" />
+    </children>
+</AnchorPane>
